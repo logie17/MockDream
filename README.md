@@ -1,7 +1,7 @@
 
 # The Dream
 
-`
+```perl
 {
   ISA => 'Foo::Bar',
 }->mock;
@@ -14,4 +14,4 @@
     foo => [ sub { }, fall_thru => 1 ]
   }
 }->mock;
-`
+```
